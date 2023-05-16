@@ -26,6 +26,9 @@ app.delete("/activity-groups/:id", ControllerActivity.destroy)
 //  todo
 app.get("/todo-items", ControllerTodo.getAll)
 app.get("/todo-items/:id", ControllerTodo.getOne)
+app.post("/todo-items", ControllerTodo.post)
+app.patch("/todo-items/:id", ControllerTodo.patch)
+app.delete("/todo-items/:id", ControllerTodo.destroy)
 
 
 app.use(errorHandler)
