@@ -1,0 +1,56 @@
+[
+  {
+    "activity_group_id": 1,
+    "title": "Solecode Test",
+    "is_active": true,
+    "priority": "very-high"
+  },
+  {
+    "activity_group_id": 1,
+    "title": "Satkomindo Test",
+    "is_active": true,
+    "priority": "very-high"
+  },
+  {
+    "activity_group_id": 1,
+    "title": "Skyshi Test",
+    "is_active": true,
+    "priority": "very-high"
+  },
+  {
+    "activity_group_id": 2,
+    "title": "Midnight Memories",
+    "is_active": true,
+    "priority": "low"
+  },
+  {
+    "activity_group_id": 2,
+    "title": "Spy X Family",
+    "is_active": true,
+    "priority": "low"
+  },
+  {
+    "activity_group_id": 2,
+    "title": "Detective Conan",
+    "is_active": true,
+    "priority": "low"
+  },
+  {
+    "activity_group_id": 3,
+    "title": "Cooking",
+    "is_active": true,
+    "priority": "high"
+  },
+  {
+    "activity_group_id": 3,
+    "title": "Cleaning",
+    "is_active": true,
+    "priority": "medium"
+  },
+  {
+    "activity_group_id": 3,
+    "title": "Washing",
+    "is_active": true,
+    "priority": "low"
+  }
+]
