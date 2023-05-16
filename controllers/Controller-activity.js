@@ -1,4 +1,4 @@
-const { activity, todo } = require("../models/index");
+const { activity } = require("../models/index");
 
 class ControllerActivity {
   static async getAll(req, res, next) {
