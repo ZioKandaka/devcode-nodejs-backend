@@ -1,0 +1,21 @@
+version: '3'
+services:
+  app-service:
+    build: ./services/app
+    ports:
+      - "8090:3030"
+    environment:
+      - MYSQL_HOST=localhost
+      - MYSQL_PORT=3306
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=mysql
+      - MYSQL_DBNAME=devcode-docker
+      - DIALECT=mysql
+      - NODE_ENV=development
+      - HOST=localhost
+      - PORT=3030
+  database:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=mysql
+      - MYSQL_DATABASE=devcode-docker
